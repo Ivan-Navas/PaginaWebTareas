@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    background-color: #1E1E20;
+    font-family: 'Roboto', sans-serif;
+}
+.titleTask{
+    text-align: center;
+    padding-top: 0px;
+    font-size: 25px;
+    color: #0075ac;
+}
+.taskcard{
+    background-color: #252529;
+    color:#fff;
+    border-radius: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    margin: 20px;
+    margin-bottom: 50px;
+    width: 500px;
+    min-height: 100px;
+    max-width: 500px;
+    display: grid;
+    align-items: center;
+}
+.taskcard:hover{
+    box-shadow: -1px 1px 20px 5px #0075ac;
+}
+.buttonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.deleteButton{
+    width: 50%;
+    height: 35px;
+    background-color: #0075ac;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+}
+.deleteButton:hover{
+    background-color: #fff;
+    color: #0075ac;
+    box-shadow: -1px 1px 20px 5px #0075ac;
+}
+
+@media(max-width: 583px){
+    .taskcard{
+        width: 400px;
+    }
+}
+
+@media(max-width: 399){
+    .taskcard{
+        width: 300px;
+    }
+}
